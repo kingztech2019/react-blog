@@ -1,15 +1,18 @@
 {
-  "name": "react-blog",
-  "version": "1.0.0",
-  "description": "reactblog",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "oluwajuwon",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.4.20"
-  }
+    "name": "react-blog",
+    "version": "1.0.0",
+    "description": "reactblog",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "backend": "nodemon index.js"
+    },
+    "author": "oluwajuwon",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cookie-parser": "^1.4.2",
+        "express": "^4.17.1",
+        "mongoose": "^5.4.20"
+    }
 }
